@@ -1,0 +1,71 @@
+{
+    "name": "DoginputActions",
+    "maps": [
+        {
+            "name": "DogCommands",
+            "id": "a1801ffd-f38d-4155-a92d-11ceddd44b52",
+            "actions": [
+                {
+                    "name": "GoToBathtub",
+                    "type": "Button",
+                    "id": "52f20d74-2049-48ac-b33b-17eb058e07f5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "GoToTable",
+                    "type": "Button",
+                    "id": "a263325c-6a72-4a04-a460-9152ca27332c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "GoToWaitingArea",
+                    "type": "Button",
+                    "id": "4b96d3a1-d85e-4466-8140-bbae1ed8ab27",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cd2facfb-e19f-49dd-a979-bcab44255cd2",
+                    "path": "<Keyboard>/b",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GoToBathtub",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9364f167-f3d8-41c8-a84c-5b138e295637",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GoToTable",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "17e7d743-92d4-4e8f-ac6c-cc991ee1e256",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GoToWaitingArea",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
